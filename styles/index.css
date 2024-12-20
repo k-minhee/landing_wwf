@@ -56,7 +56,7 @@
 }
 #wrap .bg1 .gradient .contents > * {}
 #wrap .bg1 .gradient .contents {
-    height: 150vh; /* 화면 높이만큼주기 > 자식한테 줘야, bg1과 gradient에 높이를 안 줘도 됨 */
+    height: 100vh; /* 화면 높이만큼주기 > 자식한테 줘야, bg1과 gradient에 높이를 안 줘도 됨 */
     display: flex; flex-flow: column nowrap;
     justify-content: center; align-items: center;
 }
@@ -132,8 +132,35 @@
 #wrap .bg3 .contents iframe {max-width:900px; width: 100%; height: 600px;}
 #wrap .bg3 .contents .sponsor_btn {margin-bottom:0;}
 /* =====================4행 빙하 50% 감소 */
-/* =====================5행 빙하 인류재앙3 */
 /* =====================6행 지구전체위기 */
+#wrap .bg4,
+#wrap .bg6 {
+    background-image: url(../images/50_bg.png);
+    padding: 335px 200px;
+}
+#wrap .bg4 .contents,
+#wrap .bg6 .contents {}
+#wrap .bg4 .contents h2,
+#wrap .bg6 .contents h2 {
+    font-size: 3.44rem; font-weight:500;
+    line-height: 1.2; letter-spacing:-0.01em;
+    color: #fff;
+}
+#wrap .bg4 .contents h2 span,
+#wrap .bg6 .contents h2 span {
+    background-color: #fff; color: #050505;
+    font-weight: 700;
+}
+#wrap .bg4 .contents h2+p,
+#wrap .bg6 .contents h2+p {
+    font-size: 2.13rem; font-weight: 700; line-height: 1.5;
+    color: #fff; margin: 80px 0;
+}
+#wrap .bg4 .contents .img,
+#wrap .bg6 .contents .img {}
+#wrap .bg4 .contents .img img,
+#wrap .bg6 .contents .img img {width: 100%;}
+/* =====================5행 빙하 인류재앙3 */
 /* =====================7행 WWF소개 */
 /* =====================8행 다양한 활동 */
 /* =====================9행 감사선물 */
